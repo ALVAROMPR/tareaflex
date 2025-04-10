@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetación Flexbox</title>
+    <link rel="stylesheet" href="flexbox.css">
+</head>
+<body>
+    <div class="contenido">
+        <div class="seccion-1">
+            <img src="ruta-correcta/logo.jpg" alt="Logo">
+        </div>
+        <div class="seccion-2">
+            <ul class="nav">
+                <li>Inicio</li>
+                <li>Servicios</li>
+                <li>Contacto</li>
+                <li>Nosotros</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="header-image"></div>
+
+    <div class="servicios">
+        <h2>SERVICIOS</h2>
+        <div class="sub-servicio">
+            <div>
+                <h3>Servicio 1</h3>
+                <button>Ver más</button>
+            </div>
+            <div>
+                <img src="ruta-correcta/imagen1.jpg" alt="Servicio 1">
+            </div>
+        </div>
+        <div class="sub-servicio">
+            <div>
+                <h3>Servicio 2</h3>
+                <button>Ver más</button>
+            </div>
+            <div class="imagen-btn">
+                <img class="img-1" src="ruta-correcta/imagen2.jpg" alt="Servicio 2">
+                <button>Acceder</button>
+            </div>
+        </div>
+        <div class="sub-servicio">
+            <div>
+                <h3>Servicio 3</h3>
+                <button>Ver más</button>
+            </div>
+            <div>
+                <img src="ruta-correcta/imagen3.jpg" alt="Servicio 3">
+            </div>
+        </div>
+    </div>
+
+    <div class="cajas">
+        <div class="sub-caja">
+            <img src="ruta-correcta/logo.jpg" alt="Icono">
+            <h3>Opción 1</h3>
+            <button>Seleccionar</button>
+        </div>
+        <div class="sub-caja">
+            <img src="ruta-correcta/logo.jpg" alt="Icono">
+            <h3>Opción 2</h3>
+            <button>Seleccionar</button>
+        </div>
+        <div class="sub-caja">
+            <img src="ruta-correcta/logo.jpg" alt="Icono">
+            <h3>Opción 3</h3>
+            <button>Seleccionar</button>
+        </div>
+    </div>
+</body>
+</html>
